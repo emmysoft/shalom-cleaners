@@ -13,6 +13,7 @@ import {
   navigation,
 } from "./NavStyle";
 import { NavButton } from "../Button";
+import shalomlogo from "../../assets/shalomlogo.png";
 import "../../App.css";
 
 function Navigation() {
@@ -20,7 +21,7 @@ function Navigation() {
     <>
       <div style={navigation}>
         <div style={Name}>
-          <p style={bizname}>Shalom Cleaners</p>
+          <img src={shalomlogo} style={bizname} alt="" />
         </div>
         <div style={navArea}>
           <div style={nav}>
