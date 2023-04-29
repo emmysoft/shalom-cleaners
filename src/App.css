@@ -11,3 +11,13 @@
   text-decoration: underline;
   text-decoration-color: "#000080";
 }
+
+.input:focus {
+  outline: 1.5px solid #000080;
+}
+.input::placeholder {
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8f8f8f;
+}

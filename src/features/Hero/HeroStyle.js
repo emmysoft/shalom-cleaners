@@ -1,3 +1,5 @@
+// import car from "../../assets/car.jpg";
+
 export const herobody = {
   display: "flex",
   flexDirection: "row",
@@ -5,8 +7,13 @@ export const herobody = {
   alignItems: "center",
   gap: "214px",
   backgroundColor: "#000080",
+  opacity: "0.7",
+  // backgroundImage: `url(${car})`,
+  // backgroundPosition: "center",
+  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
   height: "733px",
   padding: "30px 98px 74px 85px",
+  boxSizing: "border-box",
 };
 
 export const heroHead = {
