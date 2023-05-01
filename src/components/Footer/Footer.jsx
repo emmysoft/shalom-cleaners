@@ -4,7 +4,7 @@ import { footerBody, footerPara } from "./FooterStyle";
 function Footer() {
   return (
     <>
-      <div style={footerBody}>
+      <div style={footerBody}> 
         <p style={footerPara}>
           © 2023 Shalom Cleaning Services. All Rights Reserved
         </p>

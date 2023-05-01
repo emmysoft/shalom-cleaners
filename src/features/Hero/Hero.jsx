@@ -30,7 +30,7 @@ function Hero() {
             </span>{" "}
             it’s deserve
           </h2>
-          <p style={headerPara}>
+          <p style={headerPara}> 
             We provide exceptional cleaning services that exceed our clients'
             expectations while promoting a healthy and safe environment for
             everyone. We aim to accomplish this by using eco-friendly cleaning

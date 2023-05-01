@@ -4,7 +4,6 @@ export const footerBody = {
   justifyContent: "center",
   alignItems: "center",
   height: "114px",
-  //   padding: "45px 503px 45px 503px",
   background: "#000",
 };
 

@@ -42,7 +42,7 @@ export const linkStyle = {
 };
 
 export const navBtn = {
-    marginTop: 30
+    marginTop: "35px",
 }
 
 export const navbtn = {

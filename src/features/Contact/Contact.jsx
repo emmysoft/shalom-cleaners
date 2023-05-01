@@ -23,7 +23,7 @@ import {
 function Contact() {
   return (
     <>
-      <div style={contactBody}>
+      <div style={contactBody}> 
         <h3 style={contactHead}>Contact Us</h3>
         <div style={contactCont}>
           <div style={contactinfo}>

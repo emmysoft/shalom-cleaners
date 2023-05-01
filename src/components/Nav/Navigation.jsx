@@ -21,7 +21,7 @@ function Navigation() {
     <>
       <div style={navigation}>
         <div style={Name}>
-          <img src={shalomlogo} style={bizname} alt="" />
+          <img src={shalomlogo} style={bizname} alt="logo" />
         </div>
         <div style={navArea}>
           <div style={nav}>

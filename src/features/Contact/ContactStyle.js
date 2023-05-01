@@ -11,7 +11,8 @@ export const contactBody = {
   justifyContent: "center",
   alignItems: "center",
   gap: "220px",
-  background: "rgba(0, 0, 128, 0.07)",
+  backgroundColor: "rgba(0, 0, 128, 0.07)",
+  backgroundFilter: "blur(35px)",
   padding: "70px",
 };
 

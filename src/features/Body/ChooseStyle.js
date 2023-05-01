@@ -8,7 +8,7 @@ export const choose = {
   background: `url(${choosebg})`,
   backgroundPosition: "cover",
   gap: 84,
-  padding: 50,
+  padding: 29
 };
 
 export const choosePara = {

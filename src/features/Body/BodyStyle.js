@@ -1,5 +1,3 @@
-
-
 export const bodyStyle = {
   display: "flex",
   flexDirection: "column",

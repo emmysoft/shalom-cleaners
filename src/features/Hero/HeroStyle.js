@@ -1,4 +1,4 @@
-import car from "../../assets/car.jpg";
+// import car from "../../assets/car.jpg";
 
 export const herobody = {
   display: "flex",

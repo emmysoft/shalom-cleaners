@@ -45,7 +45,7 @@ export const formbutton = {
   height: "55px",
   background: "#000080",
   color: "#fff",
-  fontSize: "24px",
+  fontSize: "20px",
   fontWeight: 600,
   padding: "11px 226px 8px 161px",
   textDecoration: "none",
@@ -53,4 +53,5 @@ export const formbutton = {
   flexDirection: "row",
   justifyContent: "center",
   alignItems: "center",
+  borderRadius: "8px",
 };
