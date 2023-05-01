@@ -6,14 +6,12 @@ export const herobody = {
   justifyContent: "space-between",
   alignItems: "center",
   gap: "214px",
-  background: "#000080",
-  opacity: 0.7,
-  backgroundImage: `url(${car})`,
-  backgroundPosition: "center",
+  background: "rgba(0, 0, 128, 0.74)",
+  // backgroundImage: `url(${car})`,
+  // backgroundPosition: "center",
   boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
   height: "733px",
   padding: "30px 98px 74px 85px",
-  // boxSizing: "border-box",
 };
 
 export const heroHead = {
