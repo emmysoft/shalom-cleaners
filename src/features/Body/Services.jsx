@@ -57,7 +57,7 @@ function Services() {
               />
               <p
                 style={Object.assign(
-                  { width: "183px", height: "48px" },
+                  { height: "48px" },
                   ImagePara
                 )}
               >
@@ -131,7 +131,7 @@ function Services() {
               />
               <p
                 style={Object.assign(
-                  { width: "154px", height: "48px" },
+                  { height: "48px" },
                   ImagePara
                 )}
               >
