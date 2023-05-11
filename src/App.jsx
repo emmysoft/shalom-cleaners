@@ -15,10 +15,10 @@ function App() {
   const [isPresent, safeToRemove] = usePresence();
 
   useEffect(() => {
-    if (isPresent) {
+    if (isPresent) { 
       animate(
         scope.current,
-        { opacity: [0, 1] },
+        { opacity: [0,1] },
         { duration: 0.5, delay: 0.2 }
       );
     }

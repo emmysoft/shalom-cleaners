@@ -1,4 +1,4 @@
-import choosebg from "../../assets/choosebg.jpg";
+import choosebg from "../../../assets/choosebg.jpg";
 
 export const choose = {
   display: "flex",

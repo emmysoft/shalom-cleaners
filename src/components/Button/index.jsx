@@ -1,23 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const NavButton = ({ to, children, style }) => {
+export const NavButton = ({ to, children, style, className }) => {
   return (
     <>
-      <Link to={to} style={style}>
+      <Link to={to} style={style} className={className}>
         {children}
       </Link>
     </>
   );
 };
 
-export const SubmitButton = ({ to, children, style }) => {
+export const SubmitButton = ({ to, children, style, className }) => {
   return (
     <>
-      <Link to={to} style={style}>
+      <Link to={to} style={style} className={className}>
         {children}
       </Link>
     </>
   );
 };
- 

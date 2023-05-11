@@ -37,13 +37,13 @@ export const nav = {
 export const linkStyle = {
   textDecoration: "none",
   color: "#000",
-  fontSize: 16,
+  fontSize: "16px",
   fontWeight: 600,
 };
 
 export const navBtn = {
-    marginTop: "35px",
-}
+  marginTop: "35px",
+};
 
 export const navbtn = {
   backgroundColor: "#fff",

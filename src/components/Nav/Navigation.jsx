@@ -1,10 +1,10 @@
-import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 import {
   Name,
-  bizname,
   linkStyle,
   nav,
   navArea,
@@ -14,22 +14,26 @@ import {
 } from "./NavStyle";
 import { NavButton } from "../Button";
 import shalomlogo from "../../assets/shalomlogo.png";
-import "../../App.css";
 
 function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <div style={navigation}>
-        <div style={Name}>
-          <img src={shalomlogo} style={bizname} alt="logo" />
+      <div style={navigation} className="navigation">
+        <div style={Name} className="Name">
+          <img src={shalomlogo} alt="logo" className="logo" />
+          <div className="menu_bar" onClick={handleToggle}>
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </div>
         </div>
-        <div style={navArea}>
-          <div style={nav}>
-            <NavLink
-              to="/"
-              style={linkStyle}
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
+        <div style={navArea} className={`navArea ${isOpen && 'navArea'}`}>
+          <div style={nav} className="nav">
+            <NavLink to="/" style={linkStyle}>
               Home
             </NavLink>
             <NavLink to="/" style={linkStyle}>
@@ -45,8 +49,8 @@ function Navigation() {
               Contact
             </NavLink>
           </div>
-          <div style={navBtn}>
-            <NavButton to="/" style={navbtn}>
+          <div style={navBtn} className="navbtn">
+            <NavButton to="/" style={navbtn} className="navbtn">
               Book a Service
               <AiOutlineArrowRight
                 style={{ color: "#000080", width: "16px", height: "16px" }}

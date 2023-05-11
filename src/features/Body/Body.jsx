@@ -17,17 +17,18 @@ import {
 } from "./BodyStyle";
 import cleaner3 from "../../assets/cleaner3.png";
 import cleaner4 from "../../assets/cleaner4.png";
-import Choose from "./Choose";
-import Project from "./Project";
-import Services from "./Services";
+import Choose from "./Choose/Choose.jsx";
+import Project from "./Project/Project.jsx";
+import Services from "./Services/Services.jsx";
+import "../../App.css";
 
 function Body() {
   return (
     <>
-      <div style={bodyStyle}>
+      <div style={bodyStyle} className="bodyStyle">
         <div style={about}>
-          <h3 style={aboutName}>About Us</h3>
-          <p style={aboutPara}>
+          <h3 style={aboutName} className="aboutName">About Us</h3>
+          <p style={aboutPara} className="aboutPara">
             We provide exceptional cleaning services that exceed our clients'
             expectations while promoting a healthy and safe environment for
             everyone. We aim to accomplish this by using eco-friendly cleaning
@@ -35,12 +36,12 @@ function Body() {
             efficiency and effectiveness.
           </p>
         </div>
-        <div style={detail}>
-          <div style={mission}>
-            <img src={cleaner3} alt="cleaner" style={img} />
-            <div style={missiondetail}>
-              <h4 style={missiontopic}>Mission</h4>
-              <p style={missionpara}>
+        <div style={detail} className="detail">
+          <div style={mission} className="mission">
+            <img src={cleaner3} alt="cleaner" style={img} className="img"/>
+            <div style={missiondetail} className="missiondetail">
+              <h4 style={missiontopic} className="missiontopic">Mission</h4>
+              <p style={missionpara} className="missionpara">
                 We provide exceptional cleaning services that exceed our
                 clients' expectations while promoting a healthy and safe
                 environment for everyone. We aim to accomplish this by using
@@ -49,10 +50,10 @@ function Body() {
               </p>
             </div>
           </div>
-          <div style={vision}>
-            <div style={visiondetail}>
-              <h4 style={visiontopic}>Vision</h4>
-              <p style={visionpara}>
+          <div style={vision} className="vision">
+            <div style={visiondetail} className="visiondetail">
+              <h4 style={visiontopic} className="visiontopic">Vision</h4>
+              <p style={visionpara} className="visionpara">
                 We provide exceptional cleaning services that exceed ourz
                 clients' expectations while promoting a healthy and safe
                 environment for everyone. We aim to accomplish this by using
@@ -60,10 +61,10 @@ function Body() {
                 techniques to ensure maximum efficiency and effectiveness.
               </p>
             </div>
-            <img src={cleaner4} alt="cleaner" style={img} />
+            <img src={cleaner4} alt="cleaner" style={img} className="img" />
           </div>
         </div>
-        <Choose />
+        <Choose/>
         <Project />
         <Services />
       </div>

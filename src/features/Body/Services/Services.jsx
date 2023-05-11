@@ -1,14 +1,14 @@
 import React from "react";
 
-import MovingTruck from "../../assets/MovingTruck.png";
-import vaccuumcleaner from "../../assets/vaccuumcleaner.png";
-import pressurewasher from "../../assets/pressurewasher.png";
-import carclean from "../../assets/carclean.png";
-import book from "../../assets/book.png";
-import Tiles from "../../assets/Tiles.png";
-import TileStar from "../../assets/TileStar.png";
-import sofa from "../../assets/sofa.png";
-import TidyBrush from "../../assets/TidyBrush.png";
+import MovingTruck from "../../../assets/MovingTruck.png";
+import vaccuumcleaner from "../../../assets/vaccuumcleaner.png";
+import pressurewasher from "../../../assets/pressurewasher.png";
+import carclean from "../../../assets/carclean.png";
+import book from "../../../assets/book.png";
+import Tiles from "../../../assets/Tiles.png";
+import TileStar from "../../../assets/TileStar.png";
+import sofa from "../../../assets/sofa.png";
+import TidyBrush from "../../../assets/TidyBrush.png";
 import {
   ImageGrid1,
   ImageGrid2,
@@ -20,15 +20,18 @@ import {
   servicebody,
   servicehead,
 } from "./ServiceStyle";
+import "../../../App.css";
 
 function Services() {
   return (
     <>
-      <div style={servicebody}>
-        <h3 style={servicehead}>Our Services</h3>
+      <div style={servicebody} className="servicebox">
+        <h3 style={servicehead} className="servicehead">
+          Our Services
+        </h3>
         <div style={serviceImage}>
-          <div style={ImageGrid1}>
-            <div style={imagestyle}>
+          <div className="service" style={ImageGrid1}>
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={MovingTruck}
                 alt=""
@@ -46,7 +49,7 @@ function Services() {
                 Moving Cleaning
               </p>
             </div>
-            <div style={imagestyle}>
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={vaccuumcleaner}
                 alt=""
@@ -55,16 +58,11 @@ function Services() {
                   imgStyle
                 )}
               />
-              <p
-                style={Object.assign(
-                  { height: "48px" },
-                  ImagePara
-                )}
-              >
+              <p style={Object.assign({ height: "48px" }, ImagePara)}>
                 Clean-up after Event
               </p>
             </div>
-            <div style={imagestyle}>
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={pressurewasher}
                 alt=""
@@ -83,8 +81,8 @@ function Services() {
               </p>
             </div>
           </div>
-          <div style={ImageGrid2}>
-            <div style={imagestyle}>
+          <div style={ImageGrid2} className="service">
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={carclean}
                 alt=""
@@ -102,7 +100,7 @@ function Services() {
                 Vehicle Cleaning
               </p>
             </div>
-            <div style={imagestyle}>
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={book}
                 alt=""
@@ -120,7 +118,7 @@ function Services() {
                 Vehicle Detailing
               </p>
             </div>
-            <div style={imagestyle}>
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={Tiles}
                 alt=""
@@ -129,18 +127,13 @@ function Services() {
                   imgStyle
                 )}
               />
-              <p
-                style={Object.assign(
-                  { height: "48px" },
-                  ImagePara
-                )}
-              >
+              <p style={Object.assign({ height: "48px" }, ImagePara)}>
                 Tiles & Grout Cleaning
               </p>
             </div>
           </div>
-          <div style={ImageGrid3}>
-            <div style={imagestyle}>
+          <div style={ImageGrid3} className="service">
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={TileStar}
                 alt=""
@@ -158,7 +151,7 @@ function Services() {
                 Hardwood Cleaning
               </p>
             </div>
-            <div style={imagestyle}>
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={sofa}
                 alt=""
@@ -176,7 +169,7 @@ function Services() {
                 Upholstery Cleaning
               </p>
             </div>
-            <div style={imagestyle}>
+            <div style={imagestyle} className="imagestyle">
               <img
                 src={TidyBrush}
                 alt=""

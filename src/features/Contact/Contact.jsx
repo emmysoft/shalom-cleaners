@@ -20,25 +20,27 @@ import {
   paraName,
 } from "./ContactStyle";
 
+import "../../App.css";
+
 function Contact() {
   return (
     <>
-      <div style={contactBody}> 
-        <h3 style={contactHead}>Contact Us</h3>
-        <div style={contactCont}>
-          <div style={contactinfo}>
-            <h3 style={contactinfohead}>
+      <div style={contactBody} className="contactBody"> 
+        <h3 style={contactHead} className="contactHead">Contact Us</h3>
+        <div style={contactCont} className="contactCont">
+          <div style={contactinfo} className="contactinfo">
+            <h3 style={contactinfohead} className="contactinfohead">
               Feel free to contact with us for any kind of query.
             </h3>
-            <p style={contactPara}>
+            <p style={contactPara} className="contactPara">
               Thank you for your interest in hiring Shalom Cleaning Service
               Company. We consider communication with the customer.
             </p>
           </div>
-
-          <div style={cont}>
-            <div style={contact}>
-              <div style={contactInfo1}>
+ 
+          <div style={cont} className="cont">
+            <div style={contact} className="contact">
+              <div style={contactInfo1} className="contact">
                 <div style={detailbox}>
                   <div style={bizname}>
                     <SlLocationPin
@@ -89,7 +91,7 @@ function Contact() {
                   </p>
                 </div>
               </div>
-              <div style={contactInfo2}>
+              <div style={contactInfo2} className="contact">
                 <div style={detailbox}>
                   <div style={bizname}>
                     <BsTelephone

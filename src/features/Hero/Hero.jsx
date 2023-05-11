@@ -18,27 +18,41 @@ import { SubmitButton } from "../../components/Button";
 import cleaner1 from "../../assets/cleaner1.png";
 import cleaner2 from "../../assets/cleaner2.png";
 
+import "../../App.css"
+
 function Hero() {
   return (
     <>
-      <div style={herobody}>
-        <div style={heroHead}>
-          <h2 style={header}>
-            Let’s Give your vehicle{" "}
-            <span style={{ color: "#FFDF37", textTransform: "capitalize" }}>
+      <div
+        style={herobody}
+        className="herobody"
+      >
+        <div
+          style={heroHead}
+          className="heroHead"
+        >
+          <h2
+            style={header}
+            className="header"
+          >
+            Let’s Give your vehicle
+            <span className="span" style={{ color: "#FFDF37", textTransform: "capitalize" }}>
               the perfect cleaning
-            </span>{" "}
-            it’s deserve
+            </span>
+            it deserves
           </h2>
-          <p style={headerPara}> 
+          <p
+            style={headerPara}
+            className="headerPara"
+          >
             We provide exceptional cleaning services that exceed our clients'
             expectations while promoting a healthy and safe environment for
             everyone. We aim to accomplish this by using eco-friendly cleaning
             products and the latest technology and techniques to ensure maximum
-            efficiency and effectiveness.{" "}
+            efficiency and effectiveness.
           </p>
-          <div style={herofoot}>
-            <SubmitButton to="/" style={book}>
+          <div style={herofoot} className="herofoot">
+            <SubmitButton to="/" style={book} className="book">
               Book Now
             </SubmitButton>
             <div style={video}>
@@ -49,9 +63,9 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div style={pictures}>
-          <img src={cleaner1} alt="cleaner" style={img1} />
-          <img src={cleaner2} alt="cleaner" style={img2} />
+        <div style={pictures} className="pictures">
+          <img src={cleaner1} alt="cleaner" style={img1} className="picImg"/>
+          <img src={cleaner2} alt="cleaner" style={img2} className="picImg"/>
         </div>
       </div>
     </>
