@@ -343,14 +343,15 @@
     gap: 22px;
   }
   .inputt {
-    width: 351px !important;
+    width: 330px !important;
     height: 48px !important;
   }
   .text {
-    width: 351px !important;
+    width: 330px !important;
     height: 102px !important;
   }
   .submitbtn {
+    width: 0.9vw !important;
     height: 55px !important;
   }
   .herobody {

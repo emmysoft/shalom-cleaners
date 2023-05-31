@@ -41,7 +41,7 @@ function Form() {
           className="submitbtn"
           // onSubmit={handleSubmit}
         >
-          Send a Message
+          Send Message
         </SubmitButton>
       </form>
     </>
