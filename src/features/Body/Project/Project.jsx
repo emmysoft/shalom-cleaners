@@ -24,23 +24,25 @@ function Project() {
           Our Project
         </h3>
         <div style={projects} className="projects">
-          <div style={projectPic1} className="projects">
+          <div style={projectPic1}>
             <img
               src={trailer}
               alt="trailer"
               style={{ width: "370px", height: "240px" }}
-              className="projectImage"
+              className="serviceImage"
             />
-            <div style={double} className="serviceImage">
+            <div style={double} className="double">
               <img
                 src={old}
                 alt="pic"
                 style={{ width: "188px", height: "247px" }}
+                className="double1"
               />
               <img
                 src={better}
                 alt="pic"
                 style={{ width: "188px", height: "247px" }}
+                className="double1"
               />
             </div>
             <img

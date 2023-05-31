@@ -49,7 +49,7 @@ export const contactinfo = {
 
 export const contactinfohead = {
   width: "453px",
-  height: "108px",
+  // height: "108px",
   fontStyle: "normal",
   fontSize: "36px",
   fontWeight: 900,

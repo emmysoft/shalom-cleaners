@@ -12,7 +12,7 @@ export const projecthead = {
   color: "#000",
   fontWeight: 600,
   fontSize: "40px",
-  textTransform: "capitalize"
+  textTransform: "capitalize",
 };
 
 export const projects = {
@@ -32,11 +32,11 @@ export const projectPic1 = {
 };
 
 export const double = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-}
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+};
 
 export const projectPic2 = {
   display: "flex",

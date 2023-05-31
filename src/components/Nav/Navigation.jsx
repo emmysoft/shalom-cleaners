@@ -31,26 +31,26 @@ function Navigation() {
             {isOpen ? <FaTimes /> : <FaBars />}
           </div>
         </div>
-        <div style={navArea} className={`navArea ${isOpen && 'navArea'}`}>
-          <div style={nav} className="nav">
+        <div style={navArea} className="navArea">
+          <div style={nav} className={isOpen ? "nav active" : "nav"}>
             <NavLink to="/" style={linkStyle}>
               Home
             </NavLink>
-            <NavLink to="/" style={linkStyle}>
+            <NavLink to="#about" style={linkStyle}>
               About
             </NavLink>
-            <NavLink to="/" style={linkStyle}>
+            <NavLink to="#projects" style={linkStyle}>
               Projects
             </NavLink>
-            <NavLink to="/" style={linkStyle}>
+            <NavLink to="#services" style={linkStyle}>
               Services
             </NavLink>
-            <NavLink to="/" style={linkStyle}>
+            <NavLink to="#contact" style={linkStyle}>
               Contact
             </NavLink>
           </div>
           <div style={navBtn} className="navbtn">
-            <NavButton to="/" style={navbtn} className="navbtn">
+            <NavButton to="#contact" style={navbtn} className="navbtn">
               Book a Service
               <AiOutlineArrowRight
                 style={{ color: "#000080", width: "16px", height: "16px" }}

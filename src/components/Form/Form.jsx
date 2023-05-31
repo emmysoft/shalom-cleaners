@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { SubmitButton } from "../Button";
 import {
   form,
@@ -11,6 +11,12 @@ import {
 import "../../App.css";
 
 function Form() {
+  // const [isLoading, setIsLoading] = useState();
+
+  // const handleSubmit = () => {
+  //   setIsLoading(<p>Loading...</p>);
+  // };
+
   return (
     <>
       <form style={form} className="form">
@@ -29,7 +35,12 @@ function Form() {
           />
         </div>
         <textarea placeholder="Message" style={textbox} className="text" />
-        <SubmitButton to="/" style={formbutton} className="submitbtn">
+        <SubmitButton
+          to="/"
+          style={formbutton}
+          className="submitbtn"
+          // onSubmit={handleSubmit}
+        >
           Send a Message
         </SubmitButton>
       </form>

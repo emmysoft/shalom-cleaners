@@ -4,7 +4,7 @@ export const herobody = {
   display: "flex",
   flexDirection: "row",
   justifyContent: "space-between",
-  alignItems: "center",
+  alignItems: "center", 
   gap: "214px",
   background: "rgba(0, 0, 128, 0.74)",
   // backgroundImage: `url(${car})`,

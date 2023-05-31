@@ -8,20 +8,6 @@
 .menu_bar {
   display: none;
 }
-.nav a.active {
-  color: "#D58D00";
-  text-decoration: underline;
-  text-decoration-color: "#000080";
-}
-.nav.active::after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #574c4c;
-}
 
 .inputt:focus {
   outline: 1.5px solid #000080;
@@ -35,8 +21,17 @@
 
 @media screen and (max-width: 780px) {
   * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+  }
+
+  .footerPara {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+  }
+  .menu_bar {
+    display: none;
   }
   .Name {
     display: flex;
@@ -46,15 +41,17 @@
     gap: 200px;
   }
   .logo {
-    width: 98.39px !important;
+    width: 100px !important;
     height: 43px !important;
+    margin: 0 auto;
+    padding: 30px;
   }
+
   .navigation {
     display: flex;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    /* width: 436px; */
     height: 58px;
     background-color: #fff;
   }
@@ -62,38 +59,34 @@
     display: flex;
     flex-direction: column !important;
     justify-content: center !important;
-    align-items: center;
+    align-items: center !important;
     position: absolute;
     top: 90px;
     right: -300px;
+    padding: 20px;
     background-color: #fff;
-    padding: 45px;
-    transition: 1s all ease-in;
+    transition: 3s all ease-in-out;
+    transform: translate(-100%, 75%);
   }
-  .navArea .active {
-    width: 270px !important;
-  }
-  .menu_bar {
-    display: block !important;
-    cursor: pointer !important;
-    width: 38px !important;
-    height: 25px !important;
-  }
+
   .nav {
-    display: flex;
+    display: none !important;
     flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     transition: 0.3s all ease-in-out;
     overflow: hidden;
-    margin-right: unset;
+  }
+  .nav:focus {
+    background-color: #000080;
   }
   .navbtn {
-    display: flex;
+    display: none !important;
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
   }
+
   .bodyStyle {
     display: flex;
     flex-direction: column;
@@ -102,11 +95,11 @@
   }
   .aboutName {
     width: 218px !important;
-    font-size: 48px !important;
-    font-weight: 700;
+    font-size: 30px !important;
+    font-weight: 500;
   }
   .aboutPara {
-    width: 357px !important;
+    max-width: 357px !important;
     height: 249px;
     font-weight: 400 !important;
     font-size: 18px !important;
@@ -121,7 +114,7 @@
     gap: 46px;
   }
   .img {
-    width: 390px !important;
+    width: 300px !important;
     height: 249px !important;
     border-radius: 18px;
   }
@@ -206,19 +199,32 @@
     justify-content: center !important;
     align-items: center !important;
   }
+  .serviceImage {
+    width: 300px !important;
+    height: 246px !important;
+    border-radius: 10px;
+  }
+  .double {
+    display: none !important;
+  }
+  /* .projectImage {
+    width: 310px !important;
+    height: 240px !important;
+    border-radius: 10px;
+  } */
   .choosebox {
     display: flex;
     flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     width: 440px;
     height: auto;
   }
   .chooseboxes {
     display: flex;
     flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     gap: 35px;
   }
   .box {
@@ -235,8 +241,8 @@
     font-weight: 600 !important;
   }
   .boxx {
-    width: 331px !important;
-    height: 326px !important;
+    width: 300px !important;
+    height: 300px !important;
   }
   .boxhead {
     width: 164px !important;
@@ -257,10 +263,7 @@
     font-weight: 400 !important;
     color: #8f8f8f;
   }
-  .projectImage {
-    width: 370px !important;
-    height: 246px !important;
-  }
+
   .servicehead {
     width: 204px !important;
     height: 48px !important;
@@ -347,15 +350,14 @@
     width: 351px !important;
     height: 102px !important;
   }
-  /* .submitbtn {
-    width: 351px !important;
+  .submitbtn {
     height: 55px !important;
-  } */
+  }
   .herobody {
     display: flex;
     flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     height: 1198px !important;
   }
   .heroHead {
@@ -364,17 +366,18 @@
     justify-content: center !important;
     align-items: center !important;
     gap: 26px;
+    margin-top: 120px;
   }
   .header {
     width: 391px !important;
     height: 123px !important;
-    font-size: 34px !important;
+    font-size: 24px !important;
     font-weight: 800;
     text-align: center;
     color: #fff;
   }
   .headerPara {
-    width: 342px !important;
+    width: 322px !important;
     height: 148px !important;
     font-size: 14px;
     font-weight: 400;
