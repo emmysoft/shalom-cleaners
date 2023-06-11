@@ -3,8 +3,10 @@ export const footerBody = {
   flexDirection: "row",
   justifyContent: "center",
   alignItems: "center",
-  height: "114px",
+  // height: "114px",
   background: "#000",
+  gap: "100px",
+  padding: "40px",
 };
 
 export const footerPara = {

@@ -9,6 +9,18 @@
   display: none;
 }
 
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.heroHead {
+  animation: slide 2s;
+}
+
 .inputt:focus {
   outline: 1.5px solid #000080;
 }
@@ -19,17 +31,15 @@
   color: #8f8f8f;
 }
 
-@media screen and (max-width: 780px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 2.5rem;
+}
 
-  .footerPara {
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-  }
+@media only screen and (max-width: 768px) {
   .menu_bar {
     display: none;
   }
@@ -411,5 +421,17 @@
     height: 257px !important;
     border-radius: 26px;
     box-sizing: border-box;
+  }
+  .footerPara {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footerBody {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px;
   }
 }

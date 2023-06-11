@@ -8,12 +8,12 @@ import {
   projects,
 } from "./ProjectStyle";
 import trailer from "../../../assets/trailer.png";
-import old from "../../../assets/old.png";
-import better from "../../../assets/better.png";
-import CEO from "../../../assets/CEO.png";
-import kitchen from "../../../assets/kitchen.png";
-import cleaner5 from "../../../assets/cleaner5.png";
-import woman from "../../../assets/woman.png";
+import job2 from "../../../assets/job2.png";
+import job3 from "../../../assets/job3.png";
+import job4 from "../../../assets/job4.png";
+import job5 from "../../../assets/job5.png";
+import job6 from "../../../assets/job6.png";
+// import woman from "../../../assets/woman.png";
 import "../../../App.css";
 
 function Project() {
@@ -24,49 +24,41 @@ function Project() {
           Our Project
         </h3>
         <div style={projects} className="projects">
-          <div style={projectPic1}>
+          <div style={projectPic1} className="projects">
             <img
               src={trailer}
               alt="trailer"
               style={{ width: "370px", height: "240px" }}
               className="serviceImage"
             />
-            <div style={double} className="double">
-              <img
-                src={old}
-                alt="pic"
-                style={{ width: "188px", height: "247px" }}
-                className="double1"
-              />
-              <img
-                src={better}
-                alt="pic"
-                style={{ width: "188px", height: "247px" }}
-                className="double1"
-              />
-            </div>
             <img
-              src={CEO}
-              alt=""
+              src={job2}
+              className="serviceImage"
+              alt="job"
+              style={{ width: "370px", height: "240px" }}
+            />
+            <img
+              src={job3}
+              alt="job"
               style={{ width: "370px", height: "240px" }}
               className="serviceImage"
             />
           </div>
           <div style={projectPic2} className="projects">
             <img
-              src={kitchen}
+              src={job4}
               alt=""
               style={{ width: "370px", height: "240px" }}
               className="serviceImage"
             />
             <img
-              src={cleaner5}
+              src={job5}
               alt=""
               style={{ width: "370px", height: "240px" }}
               className="serviceImage"
             />
             <img
-              src={woman}
+              src={job6}
               alt=""
               style={{ width: "370px", height: "240px" }}
               className="serviceImage"

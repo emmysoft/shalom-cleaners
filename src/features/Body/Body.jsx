@@ -24,7 +24,6 @@ import Project from "./Project/Project.jsx";
 import Services from "./Services/Services.jsx";
 import "../../App.css";
 
-
 function Body() {
   // const [scope, animate] = useAnimate();
 
@@ -74,7 +73,7 @@ function Body() {
                 Vision
               </h4>
               <p style={visionpara} className="visionpara">
-                We provide exceptional cleaning services that exceed ourz
+                We provide exceptional cleaning services that exceed our
                 clients' expectations while promoting a healthy and safe
                 environment for everyone. We aim to accomplish this by using
                 eco-friendly cleaning products and the latest technology and
