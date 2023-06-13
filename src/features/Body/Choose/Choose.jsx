@@ -29,10 +29,9 @@ function Choose() {
               Integrity
             </h3>
             <p style={boxPara} className="boxpara">
-              We believe in conducting our business with the highest levels of
-              honesty, transparency, and ethical standards. We strive to build
-              trust with our clients and employees by maintaining open and
-              honest communication and always doing what we say we will do
+              We prioritize honesty, transparency, and ethical standards in our
+              business. We build trust with clients and employees through open
+              communication and fulfilling our commitments.
             </p>
           </div>
           <div style={box} className="boxx">
@@ -40,10 +39,9 @@ function Choose() {
               Excellence
             </h3>
             <p style={boxPara} className="boxpara">
-              We are committed to delivering exceptional quality and service in
-              everything we do. We take pride in our work and continuously
-              strive to improve our processes and techniques to ensure maximum
-              efficiency and effectiveness
+              We are dedicated to delivering exceptional quality and service. We
+              take pride in our work and constantly improve our processes for
+              maximum efficiency and effectiveness.
             </p>
           </div>
           <div style={box} className="boxx">
@@ -51,11 +49,9 @@ function Choose() {
               Reliability
             </h3>
             <p style={boxPara} className="boxpara">
-              We understand that our clients depend on us to deliver on our
-              promises, and we take that responsibility seriously. We are
-              reliable and accountable, always showing up on time and ready to
-              work, and delivering our services with consistency and
-              dependability.
+              We prioritize environmental sustainability in all our operations.
+              We use eco-friendly products, equipment, and techniques to
+              minimize our environmental impact.
             </p>
           </div>
         </div>
@@ -65,10 +61,8 @@ function Choose() {
               Sustainability
             </h3>
             <p style={boxPara} className="boxpara">
-              We are committed to promoting environmentally sustainable
-              practices in all our operations. We use eco-friendly cleaning
-              products and equipment and employ green cleaning techniques to
-              minimize our environmental impact
+              We promote environmental sustainability by using eco-friendly
+              products, equipment, and techniques to minimize our impact.
             </p>
           </div>
           <div style={box} className="boxx">
@@ -76,11 +70,10 @@ function Choose() {
               Customer Focus
             </h3>
             <p style={boxPara} className="boxpara">
-              We understand that our clients are at the heart of our business,
-              and we are committed to delivering personalized and attentive
-              service to meet their unique needs. We listen to our clients'
-              feedback and use it to continually improve our services and exceed
-              their expectations.
+              We prioritize client satisfaction, delivering personalized and
+              attentive service that meets unique needs. By actively listening
+              to client feedback, we continuously improve our services to exceed
+              expectations.
             </p>
           </div>
           <div style={box} className="boxx">
@@ -88,10 +81,10 @@ function Choose() {
               Safety
             </h3>
             <p style={boxPara} className="boxpara">
-              We prioritize the safety and well-being of our employees, clients,
-              and their communities. We follow industry-standard safety
-              protocols and use non-toxic cleaning products to ensure a safe and
-              healthy environment for everyone.
+              We prioritize safety and well-being for employees, clients, and
+              communities. Following industry-standard safety protocols and
+              using non-toxic cleaning products, we create a safe and healthy
+              environment for all.
             </p>
           </div>
         </div>

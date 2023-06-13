@@ -11,37 +11,39 @@ import {
 import "../../App.css";
 
 function Form() {
-  // const [isLoading, setIsLoading] = useState();
-
-  // const handleSubmit = () => {
-  //   setIsLoading(<p>Loading...</p>);
-  // };
-
   return (
     <>
-      <form style={form} className="form">
+      <form
+        action="https://formsubmit.co/adedejiabel507@gmail.com"
+        style={form}
+        className="form"
+        method="POST"
+      >
         <div style={input} className="input">
           <input
             placeholder="Email Address"
             type="email"
+            name="email"
             style={inputEmail}
             className="inputt"
           />
           <input
             placeholder="Phone No"
             type="tel"
+            name="tel"
             style={inputPhone}
             className="inputt"
           />
         </div>
-        <textarea placeholder="Message" style={textbox} className="text" />
-        <SubmitButton
-          to="/"
-          style={formbutton}
-          className="submitbtn"
-          // onSubmit={handleSubmit}
-        >
-          Send Message
+        <textarea
+          placeholder="Message"
+          style={textbox}
+          className="text"
+          type="text"
+          name="text"
+        />
+        <SubmitButton to="/" style={formbutton} className="formbutton">
+          <p className="submitbtn">Send Message</p>
         </SubmitButton>
       </form>
     </>
