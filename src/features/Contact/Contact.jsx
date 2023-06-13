@@ -21,12 +21,15 @@ import {
 } from "./ContactStyle";
 
 import "../../App.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
     <>
-      <div style={contactBody} className="contactBody"> 
-        <h3 style={contactHead} className="contactHead">Contact Us</h3>
+      <div style={contactBody} className="contactBody">
+        <h3 style={contactHead} className="contactHead">
+          Contact Us
+        </h3>
         <div style={contactCont} className="contactCont">
           <div style={contactinfo} className="contactinfo">
             <h3 style={contactinfohead} className="contactinfohead">
@@ -37,19 +40,21 @@ function Contact() {
               Company. We consider communication with the customer.
             </p>
           </div>
- 
+
           <div style={cont} className="cont">
             <div style={contact} className="contact">
               <div style={contactInfo1} className="contact">
                 <div style={detailbox}>
                   <div style={bizname}>
-                    <SlLocationPin
-                      style={{
-                        color: "#000080",
-                        width: "30px",
-                        height: "37px",
-                      }}
-                    />
+                    <Link to="https://g.co/kgs/4sL71U" target="blank">
+                      <SlLocationPin
+                        style={{
+                          color: "#000080",
+                          width: "30px",
+                          height: "37px",
+                        }}
+                      />
+                    </Link>
                     <p
                       style={Object.assign(
                         //   { width: "168px", height: "36px" },
