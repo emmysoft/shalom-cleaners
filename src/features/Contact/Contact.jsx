@@ -75,13 +75,18 @@ function Contact() {
                 </div>
                 <div style={detailbox}>
                   <div style={bizname}>
-                    <AiOutlineMail
-                      style={{
-                        color: "#000080",
-                        width: "30px",
-                        height: "37px",
-                      }}
-                    />
+                    <Link
+                      to="mailto:Shalomsonsoct2021@gmail.com"
+                      target="blank"
+                    >
+                      <AiOutlineMail
+                        style={{
+                          color: "#000080",
+                          width: "30px",
+                          height: "37px",
+                        }}
+                      />
+                    </Link>
                     <p style={Object.assign({ width: "156px" }, paraName)}>
                       Mail:
                     </p>
@@ -99,13 +104,15 @@ function Contact() {
               <div style={contactInfo2} className="contact">
                 <div style={detailbox}>
                   <div style={bizname}>
-                    <BsTelephone
-                      style={{
-                        color: "#000080",
-                        width: "30px",
-                        height: "37px",
-                      }}
-                    />
+                    <Link to="https://wa.me/+12196141038" target="blank">
+                      <BsTelephone
+                        style={{
+                          color: "#000080",
+                          width: "30px",
+                          height: "37px",
+                        }}
+                      />
+                    </Link>
                     <p
                       style={Object.assign(
                         //   { width: "125px", height: "36px" },
