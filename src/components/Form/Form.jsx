@@ -42,7 +42,11 @@ function Form() {
           type="text"
           name="text"
         />
-        <SubmitButton to="/" style={formbutton} className="formbutton">
+        <SubmitButton
+          to="mailto:shalomsonsoct2021@gmail.com"
+          style={formbutton}
+          className="formbutton"
+        >
           <p className="submitbtn">Send Message</p>
         </SubmitButton>
       </form>
