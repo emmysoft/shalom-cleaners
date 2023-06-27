@@ -50,7 +50,11 @@ function Navigation() {
             </NavLink>
           </div>
           <div style={navBtn} className="navbtn">
-            <NavButton to="#contact" style={navbtn} className="navbtn">
+            <NavButton
+              to="mailto:shalomsonsoct2021@gmail.com"
+              style={navbtn}
+              className="navbtn"
+            >
               Book a Service
               <AiOutlineArrowRight
                 style={{ color: "#000080", width: "16px", height: "16px" }}
