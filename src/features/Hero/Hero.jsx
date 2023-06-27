@@ -41,7 +41,7 @@ function Hero() {
             efficiency and effectiveness.
           </p>
           <div style={herofoot} className="herofoot">
-            <SubmitButton to="#contact" style={book} className="book">
+            <SubmitButton to="mailto:shalomsonsoct2021@gmail.com" style={book} className="book">
               Book Now
             </SubmitButton>
           </div>
