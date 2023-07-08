@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     if (isPresent) {     
-      animate(
+      animate(,
         scope.current,
         { opacity: [0,1] },
         { duration: 0.5, delay: 0.2 }
